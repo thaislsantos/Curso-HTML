@@ -1,42 +1,7 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #00d8d6;
-    border-bottom: 10px solid #808e9b;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-items: center;
-}
-
-h2 {
+.logo {
     font-family: 'Lobster', cursive;
     color: #575fcf;
     text-shadow: 3px 3px 0px #1e272e;
-}
-
-nav {
-    text-align: right;
-}
-
-a {
-    display: inline-flex;
-    align-items: center;
-    color: #FFF;
-    font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-}
-
-a::before {
-    content: "";
-    width: 10px;
-    height: 10px;
-    background-color: #ffc048;
-    margin-right: 10px;
 }
 
 span {
@@ -45,21 +10,4 @@ span {
     height: 10px;
     background-color: #F25A70;
     margin-right: 10px;
-}
-
-#button {
-    display: inline-block;
-    background-color: #ffc048;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px 5px 0px #000000;
-    margin-right: 0;
-    transition: transform 135ms linear, opacity 190ms ease-in-out;
-}
-
-#button:hover {
-    transform: scale(0.9);
-    opacity: 0.8;
 }
